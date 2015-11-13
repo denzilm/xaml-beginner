@@ -15,6 +15,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">**Clear All Orders**</TextBlock>
+        <Grid />
+        <Button Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">Clear All Orders</Button>
     </Grid>
+    <Page.TopAppBar>
+        <AppBar>
+            <AppBarButton Icon="Home" Label="Home" Click="AppBarHome_Click" />
+        </AppBar>
+    </Page.TopAppBar>
 </Page>
