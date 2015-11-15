@@ -15,7 +15,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <Grid />
+        <GridView  Margin="30 30 0 0" DataContext="{StaticResource DataManager}" ItemsSource="{Binding OrderItems}"/>
         <Button Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">Clear All Orders</Button>
     </Grid>
     <Page.TopAppBar>
